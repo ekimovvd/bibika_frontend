@@ -3,17 +3,23 @@
   text-decoration: none;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   padding: 0;
   margin: 0;
-  height: 100vh;
-  background: #ffffff;
+  height: 100%;
+  background: #e8e8e8; // #fafafa // #ececec
   font-size: 14px;
+  color: #7a7a7a;
 }
 
-#app {
+#__nuxt,
+#__layout {
   height: 100%;
 }
 
