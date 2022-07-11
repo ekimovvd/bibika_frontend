@@ -1,19 +1,19 @@
 <template>
   <div class="default">
+    <Navbar></Navbar>
     <Nuxt></Nuxt>
-    <Toolbar></Toolbar>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "nuxt-property-decorator";
 
-import Toolbar from "~/components/Toolbar/component/component.vue";
+import Navbar from "~/components/Navbar/component/component";
 
 @Component({
   name: "Default",
   components: {
-    Toolbar,
+    Navbar,
   },
 })
 export default class Default extends Vue {}

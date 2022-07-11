@@ -1,2 +1,10 @@
 .home {
+  &__container {
+    flex-direction: column;
+    padding: 60px 0px;
+  }
+
+  &__filter {
+    margin-top: 15px;
+  }
 }

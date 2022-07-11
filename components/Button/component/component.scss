@@ -1,0 +1,21 @@
+.button {
+  &_success {
+    padding: 8px 20px;
+    background: #9570e1;
+    font-size: 13px;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+
+  &:disabled {
+    opacity: 0.7;
+  }
+}

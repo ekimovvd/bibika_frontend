@@ -1,0 +1,15 @@
+.input {
+  width: 100%;
+  position: relative;
+
+  &__field {
+    width: 100%;
+    border-radius: 5px;
+    background: #f2f2f2;
+    color: #737373;
+
+    &::placeholder {
+      color: #737373;
+    }
+  }
+}

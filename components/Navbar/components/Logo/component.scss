@@ -1,0 +1,21 @@
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__button {
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:active {
+      opacity: 0.5;
+    }
+  }
+
+  &__avatar {
+    font-size: 30px;
+    margin-right: 5px;
+    color: #9570e1;
+  }
+}
